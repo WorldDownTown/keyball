@@ -1,0 +1,6 @@
+services:
+  build:
+    build: .
+    volumes:
+      - .:/keyball
+    command: ["bash", "bin/docker-build.sh"]
